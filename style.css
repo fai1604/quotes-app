@@ -1,0 +1,30 @@
+body {
+    background-image: url('https://thumbs.dreamstime.com/b/white-crumpled-paper-close-up-texture-background-vertical-white-crumpled-paper-close-up-texture-background-vertical-177906236.jpg');
+}
+
+section {
+    padding: 0 auto;
+}
+
+form {
+    text-align: center;
+}
+
+#heading {
+    color: #d4af37;
+}
+
+#main {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+}
+
+#content {
+    margin-top: 10%;
+}
+
+#quote, #author {
+    font-size: large;
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id='main'>
+        <h2>Welcome to Fai's Quote Generator!</h2>
+        <p>Enter your name and press 'Submit' to receive a quote just for you!</p>
+        <form id='quotes'>
+            <input type="text" name="query" placeholder="enter your name here :)">
+            <button>Submit</button>
+        </form>
+        <div id='content'>
+            <h2 id='heading'></h2>
+            <p id='quote'></p>
+            <p id='author'></p>
+        </div>
+    </div>
+    <script src='app.js'></script>
+</body>
+</html>
